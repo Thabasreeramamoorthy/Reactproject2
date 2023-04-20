@@ -1,0 +1,19 @@
+body {
+  background-color: #f00;
+  animation-name: colorChange;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: rgb(126, 215, 244);
+  }
+  50% {
+    background-color: rgb(245, 92, 184);
+  }
+  100% {
+    background-color: rgb(176, 249, 130);
+  }
+}
